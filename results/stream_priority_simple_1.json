@@ -1,0 +1,13 @@
+{
+"scenario_name": "Stream priority preemption test",
+"benchmark_name": "Timer Spin",
+"label": "Kernel 1",
+"max_resident_threads": 4096,
+"data_size": 0,
+"release_time": 0.000000,
+"PID": 22563,
+"TID": 22575,
+"times": [{},
+{"copy_in_times": [0.087520447,0.087520864], "execute_times": [0.087521228,1.715543425], "copy_out_times": [1.715544154,1.715724102], "cpu_times": [0.087520447,1.715724102]},
+{"kernel_name": "GPUSpin", "block_count": 8, "thread_count": 1024, "shared_memory": 0, "kernel_times": [0.098434042, 1.726168115], "block_times": [0.098434042,0.912300167,0.098434042,0.912299802,0.098434198,0.912299542,0.098434250,0.912300063,0.912301261,1.726167281,0.912301313,1.726167542,0.912301261,1.726166865,0.912301261,1.726166708], "block_smids": [0,1,0,1,0,1,1,0], "cpu_core": 1}
+]}
